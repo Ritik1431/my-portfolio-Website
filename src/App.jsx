@@ -11,8 +11,8 @@ import Footer from './Components/Footer/Footer.jsx';
 function App() {
   return (
     <>
-      <Header/>
       <Nav/>
+      <Header/>
       <About/>
       <Experience/>
       <Services/>
