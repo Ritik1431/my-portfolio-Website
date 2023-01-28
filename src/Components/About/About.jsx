@@ -38,9 +38,12 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
             error culpa, aut cum iis corrupti
           </p>
+          <div className="btn-div">
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
+
+          </div>
         </div>
       </div>
     </section>
