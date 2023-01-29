@@ -7,6 +7,50 @@ import IMG4 from'../../Assets/portfolio4.jpg'
 import IMG5 from'../../Assets/portfolio5.png'
 import IMG6 from'../../Assets/portfolio6.jpg'
 
+const data = [
+{
+  id : 1,
+  image : IMG1,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+},
+{
+  id : 2,
+  image : IMG2,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+},
+{
+  id : 3,
+  image : IMG3,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+},
+{
+  id : 4,
+  image : IMG4,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+},
+{
+  id : 5,
+  image : IMG5,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+},
+{
+  id : 6,
+  image : IMG6,
+  title : 'Dashboard using ms-excell',
+  github : 'https://github.com',
+  demo : 'https://dribble.com'
+}
+]
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -14,66 +58,23 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        <article className="portfolio_item">
+        {
+        data.map(({id,image,title,github,demo}) => {
+            return (
+              <article key={id} className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={IMG1} alt="" />
-            <h3>This is a portfolio title</h3>
+            <img src={image} alt={title} />
+            <h3>{title}</h3>
             <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
+            <a href={github} className='btn'>Github</a>
+            <a href={demo} className='btn btn-primary' target='blank'>Live Demo</a>
             </div>
           </div>
         </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG2} alt="" />
-            <h3>This is a portfolio title</h3>
-            <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG3} alt="" />
-            <h3>This is a portfolio title</h3>
-            <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG4} alt="" />
-            <h3>This is a portfolio title</h3>
-            <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG5} alt="" />
-            <h3>This is a portfolio title</h3>
-            <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="" />
-            <h3>This is a portfolio title</h3>
-            <div className="portfolio_item-btn">
-            <a href="https://github.com" className='btn'>Github</a>
-            <a href="https://dribble.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </div>
-        </article>
+            )
+        }
+        )
+      }
       </div>
     </section>
   )
