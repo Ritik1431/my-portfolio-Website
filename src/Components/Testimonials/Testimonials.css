@@ -2,9 +2,10 @@
     margin-top: 35rem;
 }
 .testimonials_container{
-    width: 40%;
+    width: 30rem;
+    height: 15rem;
+    
 }
-
 .client_avatar{
     width: 4rem;
     aspect-ratio: 1/1;
@@ -33,30 +34,43 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
+    width: 25rem;
     
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    color: var(--color-primary);
+
 }
 /* Media Queries (max devices)----> */
 
 @media screen and (max-width:1024px){
    #testimonials{
     margin-top: 50rem;
+    
    }
 
  .testimonials_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    width: 30rem;
     
- }
- .testimonials{
-    width: 15rem;
-    margin-right: 2rem;
-
  }
 }
 
  /* Media Queries (small devices)----> */
 
  @media screen and (max-width:600px){
-   
+    #testimonials{
+        margin-top: 125rem;
+    }
+    .testimonials_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 15rem;
+
+    }
+    .client_review{
+        width: 12rem;
+    }
     
  }
