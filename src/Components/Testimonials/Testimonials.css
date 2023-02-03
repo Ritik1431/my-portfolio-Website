@@ -46,13 +46,14 @@
 @media screen and (max-width:1024px){
    #testimonials{
     margin-top: 50rem;
+    height: 35rem;
     
    }
+ 
 
  .testimonials_container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     width: 30rem;
+    height: 20rem;
     
  }
 }
@@ -61,7 +62,7 @@
 
  @media screen and (max-width:600px){
     #testimonials{
-        margin-top: 125rem;
+        margin-top: 120rem;
     }
     .testimonials_container{
         display: grid;
