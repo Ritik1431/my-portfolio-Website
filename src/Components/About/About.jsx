@@ -26,7 +26,7 @@ const About = () => {
             <article className="about_card">
               <BiUser className="about_icon" />
               <h5>Graduation</h5>
-              <small>Btech(CSE) from LPU</small>
+              <small>Btech(CSE) from Lovely Professional University.</small>
             </article>
             <article className="about_card">
               <AiOutlineFundProjectionScreen className="about_icon" />
