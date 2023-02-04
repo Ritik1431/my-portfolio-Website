@@ -1,11 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from'../../Assets/portfolio1.jpg'
-import IMG2 from'../../Assets/portfolio2.jpg'
-import IMG3 from'../../Assets/portfolio3.jpg'
-import IMG4 from'../../Assets/portfolio4.jpg'
-import IMG5 from'../../Assets/portfolio5.png'
-import IMG6 from'../../Assets/portfolio6.jpg'
+import IMG1 from'../../Assets/excel.png'
+import IMG2 from'../../Assets/tic.png'
+import IMG3 from'../../Assets/react.png'
 
 const data = [
 {
@@ -18,35 +15,14 @@ const data = [
 {
   id : 2,
   image : IMG2,
-  title : 'Dashboard using ms-excell',
+  title : 'Tic Tac Toe Game',
   github : 'https://github.com',
   demo : 'https://dribble.com'
 },
 {
   id : 3,
   image : IMG3,
-  title : 'Dashboard using ms-excell',
-  github : 'https://github.com',
-  demo : 'https://dribble.com'
-},
-{
-  id : 4,
-  image : IMG4,
-  title : 'Dashboard using ms-excell',
-  github : 'https://github.com',
-  demo : 'https://dribble.com'
-},
-{
-  id : 5,
-  image : IMG5,
-  title : 'Dashboard using ms-excell',
-  github : 'https://github.com',
-  demo : 'https://dribble.com'
-},
-{
-  id : 6,
-  image : IMG6,
-  title : 'Dashboard using ms-excell',
+  title : 'React Website',
   github : 'https://github.com',
   demo : 'https://dribble.com'
 }
@@ -63,7 +39,7 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={image} alt={title} />
+            <img src={image} alt={title} className='img_portfolio'/>
             <h3>{title}</h3>
             <div className="portfolio_item-btn">
             <a href={github} className='btn'>Github</a>

@@ -13,6 +13,7 @@
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+
 }
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
@@ -20,6 +21,11 @@
 .portfolio_item-btn{
     display: flex;
     gap: 1rem;
+    margin-left: 2rem;
+}
+.img_portfolio{
+    height: 15rem;
+    width: 15rem;
     margin-left: 2rem;
 }
 /* Media Queries (max devices)----> */

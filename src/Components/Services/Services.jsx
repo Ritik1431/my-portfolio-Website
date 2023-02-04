@@ -10,56 +10,52 @@ const Services = () => {
     <div className="container services_container">
       <article className="services">
         <div className="service_head">
-          <h3>UI/UX Design</h3>
-        </div>
-        <ul className="service_list">
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-        </ul>
-      </article>
-      {/* {End of UI/UX} */}
-      <article className="services">
-        <div className="service_head">
           <h3>Data Science</h3>
         </div>
         <ul className="service_list">
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            MS-Excell.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tableu prep.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            My SQL.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            DBMS.
+          </li>
+        </ul>
+      </article>
+      {/* {Data Science} */}
+      <article className="services">
+        <div className="service_head">
+          <h3>Web development</h3>
+        </div>
+        <ul className="service_list">
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            HTML.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            CSS.
+          </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            Java Script.
+          </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            React.
+          </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            BootStrap.
           </li>
         </ul>
       </article>
@@ -71,23 +67,19 @@ const Services = () => {
         <ul className="service_list">
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            PhotoShop.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Fl-Studio.
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Hockey
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </li>
-          <li>
-            <BsCheckLg className='service_list-icon'/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Boxing
           </li>
         </ul>
       </article>

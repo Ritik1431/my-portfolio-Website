@@ -20,23 +20,23 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Schooling</h5>
+              <small>10th,12th from </small><br/><small>Army Public School Pathankot</small>
             </article>
             <article className="about_card">
               <BiUser className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Clients</small>
+              <h5>Graduation</h5>
+              <small>Btech(CSE) from LPU</small>
             </article>
             <article className="about_card">
               <AiOutlineFundProjectionScreen className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <small>React Website</small><br /><small>Tic Tac Toe Game</small><br /><small>Dashboard using Ms-Excel</small>
+
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-            error culpa, aut cum iis corrupti
+            Hi! My name is Ritik Singh and I'm a Data Scientist. You can see my skills and projects from this website. 
           </p>
           <div className="btn-div">
           <a href="#contact" className="btn btn-primary">
