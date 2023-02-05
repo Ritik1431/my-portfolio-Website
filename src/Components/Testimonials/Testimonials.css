@@ -62,7 +62,7 @@
 
  @media screen and (max-width:600px){
     #testimonials{
-        margin-top: 120rem;
+        margin-top: 50rem;
     }
     .testimonials_container{
         display: grid;

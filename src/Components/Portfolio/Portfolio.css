@@ -48,7 +48,7 @@
 
  @media screen and (max-width:600px){
     #portfolio{
-        margin-top: 61rem;
+        margin-top: 35rem;
     }
     .portfolio_container{
         display: grid;
