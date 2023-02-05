@@ -45,7 +45,7 @@
 
 @media screen and (max-width:1024px){
     #services{
-        margin-top: 18rem;
+        margin-top: 30rem;
     }
     .services_container{
         grid-template-columns: 1fr 1fr;
