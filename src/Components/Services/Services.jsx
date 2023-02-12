@@ -23,6 +23,14 @@ const Services = () => {
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
+            Tableu Desktop.
+          </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            R language.
+          </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
             My SQL.
           </li>
           <li>
