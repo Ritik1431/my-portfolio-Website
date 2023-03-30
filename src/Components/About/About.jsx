@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hi! My name is Ritik Singh and I'm a Data Scientist. You can see my skills and projects from this website. 
+            Hi! My name is Ritik Singh and I'm a Data Analyst. You can see my skills and projects from this website. 
           </p>
           <div className="btn-div">
           <a href="#contact" className="btn btn-primary">
