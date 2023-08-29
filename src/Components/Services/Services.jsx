@@ -65,6 +65,10 @@ const Services = () => {
             <BsCheckLg className='service_list-icon'/>
             BootStrap.
           </li>
+          <li>
+            <BsCheckLg className='service_list-icon'/>
+            Stripe api.
+          </li>
         </ul>
       </article>
       {/* {End of Data Science} */}
@@ -83,11 +87,11 @@ const Services = () => {
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Hockey
+            Hockey(state level)
           </li>
           <li>
             <BsCheckLg className='service_list-icon'/>
-            Boxing
+            Boxing(state level)
           </li>
         </ul>
       </article>
